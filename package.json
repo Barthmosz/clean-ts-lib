@@ -4,8 +4,9 @@
   "description": "Template for Clean (TypeScript) Library",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "test:staged": "jest",
+    "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
+    "test:verbose": "jest --passWithNoTests --runInBand",
+    "test:ci": "npm test -- --coverage",
     "prepare": "husky install"
   },
   "keywords": [],
