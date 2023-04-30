@@ -2,6 +2,24 @@
   "name": "clean-ts-lib",
   "version": "0.0.0",
   "description": "Template for clean (TypeScript) library",
+  "keywords": [
+    "clean",
+    "library",
+    "typescript"
+  ],
+  "homepage": "https://github.com/Barthmosz/clean-ts-lib",
+  "bugs": {
+    "url": "https://github.com/Barthmosz/clean-ts-lib/issues"
+  },
+  "license": "MIT",
+  "author": "Barthmosz (https://github.com/Barthmosz)",
+  "files": [
+    "./dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Barthmosz/clean-ts-lib"
+  },
   "scripts": {
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
     "test:verbose": "jest --passWithNoTests --runInBand",
@@ -9,24 +27,6 @@
     "prepare": "husky install",
     "build": "tsc --project tsconfig-build.json"
   },
-  "files": [
-    "./dist"
-  ],
-  "keywords": [
-    "clean",
-    "library",
-    "typescript"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Barthmosz/clean-ts-lib"
-  },
-  "homepage": "https://github.com/Barthmosz/clean-ts-lib",
-  "bugs": {
-    "url": "https://github.com/Barthmosz/clean-ts-lib/issues"
-  },
-  "author": "Barthmosz",
-  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.5.1",
     "@types/node": "^18.16.2",
