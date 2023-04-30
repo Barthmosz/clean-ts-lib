@@ -9,6 +9,10 @@
     "test:ci": "npm test -- --coverage",
     "prepare": "husky install"
   },
+  "files": [
+    "./dist",
+    "README.md"
+  ],
   "keywords": [],
   "author": "Barthmosz",
   "license": "ISC",
