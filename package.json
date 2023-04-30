@@ -7,7 +7,8 @@
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
     "test:verbose": "jest --passWithNoTests --runInBand",
     "test:ci": "npm test -- --coverage",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "build": "tsc --project tsconfig.build.json"
   },
   "files": [
     "./dist",
