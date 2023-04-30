@@ -2,7 +2,6 @@
   "name": "clean-ts-lib",
   "version": "0.0.0",
   "description": "Template for clean (TypeScript) library",
-  "main": "index.js",
   "scripts": {
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
     "test:verbose": "jest --passWithNoTests --runInBand",
@@ -18,6 +17,14 @@
     "library",
     "typescript"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Barthmosz/clean-ts-lib"
+  },
+  "homepage": "https://github.com/Barthmosz/clean-ts-lib",
+  "bugs": {
+    "url": "https://github.com/Barthmosz/clean-ts-lib/issues"
+  },
   "author": "Barthmosz",
   "license": "MIT",
   "devDependencies": {
