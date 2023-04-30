@@ -1,20 +1,23 @@
 {
   "name": "clean-ts-lib",
   "version": "0.0.0",
-  "description": "Template for Clean (TypeScript) Library",
+  "description": "Template for clean (TypeScript) library",
   "main": "index.js",
   "scripts": {
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
     "test:verbose": "jest --passWithNoTests --runInBand",
     "test:ci": "npm test -- --coverage",
     "prepare": "husky install",
-    "build": "tsc --project tsconfig.build.json"
+    "build": "tsc --project tsconfig-build.json"
   },
   "files": [
-    "./dist",
-    "README.md"
+    "./dist"
   ],
-  "keywords": [],
+  "keywords": [
+    "clean",
+    "library",
+    "typescript"
+  ],
   "author": "Barthmosz",
   "license": "MIT",
   "devDependencies": {
