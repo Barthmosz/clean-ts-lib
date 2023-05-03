@@ -1,5 +1,5 @@
 export class Example {
-    handle(): boolean {
+    static handle(): boolean {
         return true
     }
 }
